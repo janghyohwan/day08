@@ -1,0 +1,36 @@
+.main {
+  width: 400px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  overflow: scroll;
+}
+.title {
+  width: 1000px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.button {
+  border: 1px solid grey;
+  border-radius: 30px;
+}
+
+.container {
+  width: 500px;
+  overflow: scroll;
+}
+
+.box {
+  width: 1000px;
+  display: flex;
+  background-color: black;
+  gap: 20px;
+}
+.box > button {
+  width: 100px;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 20px;
+  color: grey;
+}
