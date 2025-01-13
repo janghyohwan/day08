@@ -1,0 +1,47 @@
+footer {
+  width: 100vw;
+  height: 30vh;
+  background-color: rgb(57, 58, 58);
+}
+.info__main {
+  max-width: 1000px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+}
+.info__icon {
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: grey;
+}
+.info__customer {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  color: white;
+}
+
+.info__mainlocation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.info__location {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  color: grey;
+}
+.info__location > div {
+  font-size: 13px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  line-height: 20px;
+}
+.info__location > div > p > u {
+  color: white;
+}

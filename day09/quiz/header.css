@@ -1,0 +1,28 @@
+header {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(main_visual_fullscreen.jpg);
+  position: relative;
+}
+
+nav > p {
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 30px;
+}
+figcaption {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  color: white;
+  font-size: 60px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 90px;
+}
